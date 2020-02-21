@@ -105,12 +105,9 @@ section{
 }
 
 .message{
-    border:7px solid;
-    border-radius: 20px;
-    background-image: linear-gradient(45deg,deeppink,mediumvioletred);
-    padding: 20px 200px;
-    display: inline-block;
+    margin-top:100px;
     color: white;
+    font-size:30px;
 }
 
 footer p{
@@ -121,6 +118,24 @@ footer p{
 }
 
 .single-work:hover img{
-    opacity: 0.5;
+    transform: scale(1.2);
 }
 
+input{
+    width:94%;
+    padding: 15px 15px;
+    margin-bottom: 20px;
+    border: 2px solid deeppink;
+    border-radius: 4px;
+}
+select{
+    width:100%;
+    padding: 15px 15px;
+    margin-bottom: 20px;
+    border: 2px solid deeppink;
+    border-radius: 4px;
+}
+
+.submit{
+    text-align: center;
+}
