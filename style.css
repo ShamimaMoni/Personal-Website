@@ -4,9 +4,19 @@ body{
 }
 
 h1{
-    font-size: 40px;
+    font-size: 60px;
 }
 
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 25px;
+}
+
+p{
+    font-size:20px;
+}
 .name{
     color: mediumvioletred;
 }
@@ -14,7 +24,7 @@ h1{
 .half-width{
     width:35%;
     float:left;
-    padding-top:100px;
+    padding-top:5%;
 }
 
 .text{
@@ -24,7 +34,7 @@ h1{
     line-height: 2em;
 }
 
-.half-width img{
+img{
     width:100%;
 }
 
@@ -51,6 +61,62 @@ section{
     background-image: url("images/biography-bg.png");
     background-size: 100%;
     background-repeat: none;
-    padding-top:200px;
+    
+}
+
+.image{
+    margin-left:5%;
+    padding-left:7%;
+}
+
+.text-biography{
+    padding-top:20%;
+    margin-left:10%;
+    line-height: 2em;
+}
+
+.work{
+    background-image: url("images/latest-work-bg.png");
+    background-size: 100%;
+    background-repeat: none;
+    text-align:center;
+    padding-top:5%;
+}
+
+.single-work{
+    margin-top:5%;
+    width:30%;
+    float:left;
+    margin-inline-end: 2%;
+}
+
+.review{
+    background-image: url("images/footer-bg.png");
+    background-size: 100%;
+    background-repeat: none;
+    text-align:center;
+}
+
+.comment{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.message{
+    border:7px solid;
+    border-radius: 20px;
+    background-image: linear-gradient(45deg,deeppink,mediumvioletred);
+    padding: 20px 200px;
+    display: inline-block;
+    color: white;
+}
+
+footer p{
+    text-align:center;
+    font-size:15px;
+    padding-bottom:20px;
+    color:grey;
 }
 
